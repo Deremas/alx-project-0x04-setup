@@ -1,3 +1,16 @@
+## 📑 Table of Contents
+
+- [🌊 Splash App — Reactify TS](#-splash-app--reactify-ts)
+  - [📂 Project Structure](#-project-structure)
+  - [🚀 How to Use](#-how-to-use)
+  - [🛠 Tech Stack](#-tech-stack)
+
+- [⚡ StateCraft — Mastering State Management](#-statecraft--mastering-state-management)
+  - [🎯 Learning Objectives](#-learning-objectives)
+  - [📂 Project Structure (StateCraft)](#-project-structure-statecraft)
+  - [🚀 How to Use (StateCraft)](#-how-to-use-statecraft)
+  - [🛠 Tech Stack (StateCraft)](#-tech-stack-statecraft)
+
 # Splash App — Reactify TS
 
 A **Next.js + TypeScript** project showcasing **modern web development practices** with a focus on reusability, responsive design, and clean architecture.
