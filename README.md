@@ -1,6 +1,7 @@
 ## 📑 Table of Contents
 
 - [🌊 Splash App — Reactify TS](#-splash-app--reactify-ts)
+
   - [📂 Project Structure](#-project-structure)
   - [🚀 How to Use](#-how-to-use)
   - [🛠 Tech Stack](#-tech-stack)
@@ -8,6 +9,9 @@
 - [⚡ StateCraft — Mastering State Management](#-statecraft--mastering-state-management)
   - [🎯 Learning Objectives](#-learning-objectives)
   - [📂 Project Structure (StateCraft)](#-project-structure-statecraft)
+    - [📂 alx-project-0x04 — useState](#-alx-project-0x04--usestate-implementation)
+    - [📂 alx-project-0x05 — Context API](#-alx-project-0x05--context-api-implementation)
+    - [📂 alx-project-0x06 — Redux](#-alx-project-0x06--redux-implementation)
   - [🚀 How to Use (StateCraft)](#-how-to-use-statecraft)
   - [🛠 Tech Stack (StateCraft)](#-tech-stack-statecraft)
 
@@ -26,6 +30,8 @@ This project demonstrates:
 ---
 
 ## 📂 Project Structure
+
+### 📂 alx-project-0x04/ — useState Implementation
 
 ```bash
 alx-project-0x03/
@@ -89,7 +95,7 @@ This project walks through:
 - Context API for global state sharing.
 - Redux Toolkit for scalable state management.
 
-🎯 Learning Objectives
+## 🎯 Learning Objectives
 
 - By completing this project, you will:
 - Understand React state management using useState.
@@ -102,37 +108,85 @@ This project walks through:
 
 ---
 
-📂 Project Structure (StateCraft)
-Each version of the project lives in its own directory:
+## 📂 Project Structure (StateCraft)
+
+Each version of the project lives in its own directory as follow:
+
+### 📂 alx-project-0x04/ — useState Implementation
 
 ```bash
-alx-project-0x04/   # useState implementation
+alx-project-0x04/
+├── components/
+│   ├── common/
+│   │   └── Button.tsx
+│   └── layouts/
+│       ├── Header.tsx
+│       ├── Footer.tsx
+│       └── Layout.tsx
+├── interfaces/
+│   └── index.ts
 ├── pages/
-│   └── counter-app.tsx
+│   ├── index.tsx
+│   ├── 404.tsx
+│   └── counter-app.tsx   # useState counter
+├── styles/
+│   └── global.css
+└── (Next.js config files)
+```
 
-alx-project-0x05/   # Context API implementation
+### 📂 alx-project-0x05/ — Context API Implementation
+
+```bash
+alx-project-0x05/
+├── components/
+│   ├── common/
+│   │   └── Button.tsx
+│   └── layouts/
+│       ├── Header.tsx
+│       ├── Footer.tsx
+│       └── Layout.tsx
 ├── context/
-│   └── CountContext.tsx
-├── components/
-│   └── layouts/
-│       └── Header.tsx
+│   └── CountContext.tsx  # Context API state logic
+├── interfaces/
+│   └── index.ts
 ├── pages/
-│   └── _app.tsx
-│   └── counter-app.tsx
+│   ├── index.tsx
+│   ├── 404.tsx
+│   ├── _app.tsx          # Wrap app with Context provider
+│   └── counter-app.tsx   # Context API counter
+├── styles/
+│   └── global.css
+└── (Next.js config files)
+```
 
-alx-project-0x06/   # Redux implementation
-├── store/
-│   └── store.ts
+### 📂 alx-project-0x06/ — Redux Implementation
+
+```bash
+alx-project-0x06/
 ├── components/
+│   ├── common/
+│   │   └── Button.tsx
 │   └── layouts/
-│       └── Header.tsx
+│       ├── Header.tsx
+│       ├── Footer.tsx
+│       └── Layout.tsx
+├── store/
+│   └── store.ts          # Redux store configuration
+├── interfaces/
+│   └── index.ts
 ├── pages/
-│   └── counter-app.tsx
+│   ├── index.tsx
+│   ├── 404.tsx
+│   ├── _app.tsx          # Wrap app with Redux Provider
+│   └── counter-app.tsx   # Redux counter
+├── styles/
+│   └── global.css
+└── (Next.js config files)
 ```
 
 ---
 
-🚀 How to Use (StateCraft)
+## 🚀 How to Use (StateCraft)
 
 1. Clone the repo for the version you want:
 
@@ -141,7 +195,7 @@ git clone https://github.com/Deremas/alx-project-0x04-setup.git
 cd alx-project-0x04   # or alx-project-0x05 / alx-project-0x06
 ```
 
-2.
+2. Insall dependencies
 
 ```bash
 npm install
