@@ -31,8 +31,6 @@ This project demonstrates:
 
 ## 📂 Project Structure
 
-### 📂 alx-project-0x04/ — useState Implementation
-
 ```bash
 alx-project-0x03/
 ├── components/
